@@ -29,7 +29,7 @@ const DownloadButtons: React.FC<DownloadButtonsProps> = ({
         <img 
           src="https://play.google.com/intl/en_us/badges/static/images/badges/fr_badge_web_generic.png"
           alt="Disponible sur Google Play"
-          className="h-[60px]"
+          className="h-[40px]"
         />
       </a>
     </div>
