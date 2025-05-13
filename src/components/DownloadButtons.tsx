@@ -10,10 +10,10 @@ const DownloadButtons: React.FC<DownloadButtonsProps> = ({
   buttonClassName = "" 
 }) => {
   return (
-    <div className={`flex flex-col sm:flex-row gap-4 ${className}`}>
+    <div className={`flex flex-col sm:flex-row gap-4 items-center ${className}`}>
       <a 
         href="#" 
-        className={`inline-block ${buttonClassName}`}
+        className={`inline-flex items-center ${buttonClassName}`}
       >
         <img 
           src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/fr-fr?size=250x83"
@@ -24,12 +24,12 @@ const DownloadButtons: React.FC<DownloadButtonsProps> = ({
       
       <a 
         href="#" 
-        className={`inline-block ${buttonClassName}`}
+        className={`inline-flex items-center ${buttonClassName}`}
       >
         <img 
           src="https://play.google.com/intl/en_us/badges/static/images/badges/fr_badge_web_generic.png"
           alt="Disponible sur Google Play"
-          className="h-[50px]"
+          className="h-[40px]"
         />
       </a>
     </div>
