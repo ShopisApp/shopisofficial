@@ -358,4 +358,4 @@ graph TB
 - Progressive Web App
 - Improved offline support
 - Blockchain for receipts
-```
+
