@@ -1,5 +1,4 @@
 # ShoppingListApp Technical Architecture
-```markdown
 ## System Overview
 
 ```mermaid
