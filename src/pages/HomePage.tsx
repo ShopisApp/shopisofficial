@@ -7,7 +7,7 @@ import TestimonialCard from '../components/TestimonialCard';
 
 const HomePage: React.FC = () => {
   useEffect(() => {
-    document.title = 'Shopyz - Simplify Your Shopping';
+    document.title = 'ShoppingListApp - Simplify Your Shopping';
   }, []);
 
   return (
@@ -118,7 +118,7 @@ const HomePage: React.FC = () => {
         <div className="container mx-auto px-4">
           <SectionHeading 
             title="Powerful Features" 
-            subtitle="Discover how Shopyz transforms your shopping experience with these powerful features."
+            subtitle="Discover how ShoppingAppList transforms your shopping experience with these powerful features."
           />
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -192,7 +192,7 @@ const HomePage: React.FC = () => {
             <TestimonialCard 
               name="Sophie Williams"
               role="Busy Mom"
-              content="Shopyz has been a game-changer for our family. We can all add items to the shared list, and I never forget anything at the store anymore."
+              content="ShoppiingAppList has been a game-changer for our family. We can all add items to the shared list, and I never forget anything at the store anymore."
               rating={5}
               avatarUrl="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=600"
             />
@@ -227,7 +227,7 @@ const HomePage: React.FC = () => {
               Ready to Transform Your Shopping Experience?
             </h2>
             <p className="text-xl text-blue-100 mb-10">
-              Join millions of happy shoppers who save time and money with Shopyz.
+              Join millions of happy shoppers who save time and money with ShoppingListApp.
             </p>
             
             <DownloadButtons className="justify-center" />
