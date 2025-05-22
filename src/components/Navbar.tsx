@@ -176,7 +176,7 @@ const Navbar: React.FC = () => {
             Community
           </NavLink>
           <button className="mx-4 py-2 bg-gradient-to-r from-blue-600 to-blue-800 hover:from-blue-700 hover:to-blue-900 text-white rounded-full shadow-md transition-all">
-            Download App
+            Login/ Sign Up
           </button>
         </div>
       </div>
