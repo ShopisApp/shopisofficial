@@ -110,7 +110,7 @@ const Navbar: React.FC = () => {
           </nav>
           
           <button className="hidden md:block px-5 py-2 bg-gradient-to-r from-blue-600 to-blue-800 hover:from-blue-700 hover:to-blue-900 text-white rounded-full shadow-md transition-all transform hover:scale-105">
-            Download App
+            Login/ Sign Up
           </button>
           
           {/* Mobile Menu Button */}
