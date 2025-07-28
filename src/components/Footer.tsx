@@ -16,7 +16,7 @@ const Footer: React.FC = () => {
               <div className="relative w-8 h-8 bg-gradient-to-br from-blue-400 to-blue-600 rounded-lg flex items-center justify-center transform -rotate-12">
                 <ShoppingBag className="h-5 w-5 text-white" />
               </div>
-              <span className="text-lg font-bold">ShoppingListApp</span>
+              <span className="text-lg font-bold">Shopis</span>
             </div>
             <p className="text-gray-400 mb-4">
               Making grocery shopping easier, more organized, and more economical with our smart shopping list application.
@@ -120,7 +120,7 @@ const Footer: React.FC = () => {
         </div>
         
         <div className="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400">
-          <p>&copy; {new Date().getFullYear()} ShoppingListApp. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Shopis. All rights reserved.</p>
         </div>
       </div>
     </footer>
