@@ -7,7 +7,7 @@ import TestimonialCard from '../components/TestimonialCard';
 
 const HomePage: React.FC = () => {
   useEffect(() => {
-    document.title = 'ShoppingListApp - Simplify Your Shopping';
+    document.title = 'Shopis - Simplify Your Shopping';
   }, []);
 
   return (
